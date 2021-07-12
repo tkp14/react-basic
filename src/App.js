@@ -1,9 +1,10 @@
-import {Counter} from "./components";
+import {Counter, ToggleButton} from "./components";
 
 function App() {
   return (
     <div>
       <Counter />
+      <ToggleButton />
     </div>
   );
 }

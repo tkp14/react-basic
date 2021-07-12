@@ -3,6 +3,7 @@ import React, { useState } from "react";
 const Counter = () => {
   const [count, setCount] = useState(0)
 
+  // count + 1をしてしまうとタイムラグで望む挙動が得られないので注意
   const countUp = () => {
     setCount(prevState => prevState + 1)
   }
