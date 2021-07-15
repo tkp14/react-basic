@@ -16,3 +16,12 @@ code {
   width: 300px;
   margin: 20px auto;
 }
+
+button {
+  cursor: pointer;
+}
+
+span {
+  color: blue;
+  cursor: pointer;
+}

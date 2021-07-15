@@ -1,10 +1,12 @@
-import {Counter, ToggleButton} from "./components";
+import {Counter, ToggleButton, TodoList, Count} from "./components";
 
 function App() {
   return (
     <div className="container">
       <Counter />
       <ToggleButton />
+      <TodoList />
+      <Count />
     </div>
   );
 }

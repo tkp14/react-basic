@@ -5,11 +5,11 @@ const Counter = () => {
 
   // count + 1をしてしまうとタイムラグで望む挙動が得られないので注意
   const countUp = () => {
-    setCount(prevState => prevState + 1)
+    setCount( count + 1)
   }
 
   const countDown = () => {
-    setCount(prevState => prevState - 1)
+    setCount( count - 1)
   }
 
   useEffect( effect => {
